@@ -6,8 +6,6 @@ class Anagram
     @word = word
   end
   def word_match(words)
-    words.each do |word|
-      word.
-    end
+    words.detect{|word| word == @words}
   end
 end
