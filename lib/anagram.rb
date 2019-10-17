@@ -5,7 +5,7 @@ class Anagram
   def initialize(word)
     @word = word
   end
-  def word_match(words)
+  def match(words)
     words.detect{|word| word == @words}
   end
 end
