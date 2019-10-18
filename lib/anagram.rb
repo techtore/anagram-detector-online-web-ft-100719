@@ -7,7 +7,7 @@ class Anagram
     @word = word
   end
   def match(words)
-    words.select{|word| word == @words}
+    words.select{|word| word == @word}
     binding.pry
   end
 end
