@@ -8,6 +8,5 @@ class Anagram
   end
   def match(words)
     words.select{|word| word == @word}
-    binding.pry
   end
 end
